@@ -1,15 +1,6 @@
 {
   "pins" : [
     {
-      "identity" : "equatable",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ordo-one/equatable",
-      "state" : {
-        "revision" : "63e597c07e1e0622e6c8f2b33c972525a444c8eb",
-        "version" : "1.0.10"
-      }
-    },
-    {
       "identity" : "highlightswift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/appstefan/highlightswift",
@@ -59,15 +50,6 @@
       "state" : {
         "revision" : "1bc16f430d8410e7f087d4c787767b26fd32fe30",
         "version" : "1.19.3"
-      }
-    },
-    {
-      "identity" : "swift-syntax",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftlang/swift-syntax.git",
-      "state" : {
-        "revision" : "0687f71944021d616d34d922343dcef086855920",
-        "version" : "600.0.1"
       }
     },
     {

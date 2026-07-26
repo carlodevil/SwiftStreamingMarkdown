@@ -5,7 +5,6 @@
 
 import Foundation
 import SwiftUI
-import Equatable
 
 /// A source of incremental Markdown text for `StreamedMarkdownView`.
 ///
@@ -21,7 +20,6 @@ public protocol StreamedMarkdownSource {
 /// Provide a `StreamedMarkdownSource` whose `text` async sequence yields
 /// progressively larger snapshots of the Markdown source; the view re-parses
 /// on each emission and refreshes the rendered output.
-@Equatable
 public struct StreamedMarkdownView: View {
 
   private let config: MarkdownRenderConfig

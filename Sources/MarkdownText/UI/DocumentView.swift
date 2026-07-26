@@ -4,14 +4,12 @@
 //
 
 import Foundation
-import Equatable
 import Markdown
 import SwiftUI
 
 /// A SwiftUI view that renders a pre-parsed `RenderableDocument`. Use this
 /// view when you already have a parsed document (e.g. driven by a streaming
 /// pipeline); use `MarkdownView` when you want the package to parse for you.
-@Equatable
 public struct DocumentView: View {
   @StateObject var controller: MarkdownController
 
